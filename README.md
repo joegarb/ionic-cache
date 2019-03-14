@@ -22,12 +22,12 @@ Please report all bugs to bug report or fix it and send pull request :)
 Via NPM:
 
 ```bash
-npm install ionic-cache @ionic/storage --save
+npm install ionic-cache-with-meta @ionic/storage --save
 ```
 
 or Yarn:
 ```bash
-yarn add ionic-cache @ionic/storage
+yarn add ionic-cache-with-meta @ionic/storage
 ```
 
 You can optionally add [Cordova SQLite](https://ionicframework.com/docs/native/sqlite/).
@@ -37,7 +37,7 @@ And inject service to your app:
 *app.module.ts*
 
 ```ts
-import { CacheModule } from "ionic-cache";
+import { CacheModule } from "ionic-cache-with-meta";
 
 @NgModule({
   ...
@@ -50,7 +50,7 @@ import { CacheModule } from "ionic-cache";
 *app.component.ts*
 
 ```ts
-import { CacheService } from "ionic-cache";
+import { CacheService } from "ionic-cache-with-meta";
 
 @Component({
     templateUrl: "build/app.html"
@@ -90,7 +90,7 @@ For backwards compatibility this defaults to `''`, but it's recommended to set t
 
 ```ts
 ...
-import { CacheService } from "ionic-cache";
+import { CacheService } from "ionic-cache-with-meta";
 
 @Injectable()
 export class SomeProvider {

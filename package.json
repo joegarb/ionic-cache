@@ -1,5 +1,5 @@
 {
-  "name": "ionic-cache",
+  "name": "ionic-cache-with-meta",
   "version": "3.1.3",
   "description": "Ionic cache service - cache request, data, promises etc.",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nodonisko/ionic-cache.git"
+    "url": "git+https://github.com/joegarb/ionic-cache.git"
   },
   "keywords": [
     "ionic",
@@ -26,12 +26,12 @@
     "cache",
     "angular2"
   ],
-  "author": "Daniel Suchy",
+  "author": "Joe Garber",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nodonisko/ionic-cache/issues"
+    "url": "https://github.com/joegarb/ionic-cache/issues"
   },
-  "homepage": "https://github.com/Nodonisko/ionic-cache#readme",
+  "homepage": "https://github.com/joegarb/ionic-cache#readme",
   "devDependencies": {
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
